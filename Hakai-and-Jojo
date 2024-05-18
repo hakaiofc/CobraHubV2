@@ -839,7 +839,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait()
 end
 end
 
@@ -1681,7 +1681,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait()
 end
 end
 
@@ -2525,13 +2525,9 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
-wait(0.00000000000000000001)
+wait()
 end
 end
-
-
-
-
 
 --Main
 local FarmTab= Window:MakeTab({
@@ -2552,7 +2548,7 @@ FarmTab:AddToggle({
 })
 
 local Section = AutoTab:AddSection({
-    Name = "AutoFarm2"
+    Name = "AutoFarm"
 })
 AutoTab:AddToggle({
     Name = "Auto-Health2",
@@ -2564,7 +2560,7 @@ AutoTab:AddToggle({
 })
 
 local Section = Vida3Tab:AddSection({
-    Name = "AutoFarm3"
+    Name = "AutoFarm"
 })
 Vida3Tab:AddToggle({
     Name = "Auto-Health3",
