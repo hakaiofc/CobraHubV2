@@ -762,15 +762,15 @@ ScriptsPRIVTab:AddToggle({
     Default = false,
     Callback = function(Value)
         _G.AutoHealth1 = Value
-        AutoHealth()
+        AutoHealth1()
     end
 })
 ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health2",
     Default = false,
     Callback = function(Value)
-        _G.AutoVida = Value
-        AutoVida()
+        _G.AutoHealth2 = Value
+        AutoHealth2()
     end
 })
 
@@ -778,8 +778,8 @@ ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health3",
     Default = false,
     Callback = function(Value)
-        _G.AutoVD = Value
-        AutoVD()
+        _G.AutoHealth3 = Value
+        AutoHealth3()
     end
 })
 
@@ -787,15 +787,15 @@ ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health4",
     Default = false,
     Callback = function(Value)
-        _G.AutoVD = Value
-        AutoVD()
+        _G.AutoHealth4 = Value
+        AutoHealth4()
     end
 })
 ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health5",
     Default = false,
     Callback = function(Value)
-        _G.AutoVD = Value
-        AutoVD()
+        _G.AutoHealth5 = Value
+        AutoHealth5()
     end
 })
