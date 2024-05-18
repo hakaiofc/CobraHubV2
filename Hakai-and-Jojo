@@ -2546,9 +2546,13 @@ FarmTab:AddToggle({
         AutoHealth(0.0000000000000000000001)
     end
 })
-
+local FarmTab= Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
 local Section = AutoTab:AddSection({
-    Name = "AutoFarm"
+    Name = "AutoFarm2"
 })
 AutoTab:AddToggle({
     Name = "Auto-Health2",
@@ -2558,9 +2562,13 @@ AutoTab:AddToggle({
         AutoVida(0.0000000000000000000001)
     end
 })
-
+local FarmTab= Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
 local Section = Vida3Tab:AddSection({
-    Name = "AutoFarm"
+    Name = "AutoFarm3"
 })
 Vida3Tab:AddToggle({
     Name = "Auto-Health3",
