@@ -2529,16 +2529,16 @@ wait()
 end
 end
 
---Main
-local FarmTab= Window:MakeTab({
-    Name = "Main",
+--ScriptsPRIV
+local ScriptsPRIVTab = Window:MakeTab({
+    Name = "ScriptsPRIV",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-local Section = FarmTab:AddSection({
-    Name = "AutoFarm"
+local Section = ScriptsPRIVTab:AddSection({
+    Name = "Script-Pesos"
 })
-FarmTab:AddToggle({
+ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health",
     Default = false,
     Callback = function(Value)
@@ -2546,7 +2546,7 @@ FarmTab:AddToggle({
         AutoHealth(0.0000000000000000000001)
     end
 })
-AutoTab:AddToggle({
+ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health2",
     Default = false,
     Callback = function(Value)
@@ -2555,7 +2555,7 @@ AutoTab:AddToggle({
     end
 })
 
-Vida3Tab:AddToggle({
+ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health3",
     Default = false,
     Callback = function(Value)
