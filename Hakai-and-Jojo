@@ -6,11 +6,11 @@ local Window = OrionLib:MakeWindow({Name = "Hakai-and-Jojo HubPriv", HidePremium
 
 
 --Valor
-_G.AutoHealth = True
+_G.AutoHealth1 = True
 
 --Função
-function AutoHealth()
-while _G.AutoHealth == true do
+function AutoHealth1()
+while _G.AutoHealth1 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
@@ -154,11 +154,11 @@ end
 end
 
 --Valor
-_G.AutoVida = True
+_G.AutoHealth2 = True
 
 --Função
-function AutoVida()
-while _G.AutoVida == true do
+function AutoHealth2()
+while _G.AutoHealth2 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
@@ -302,11 +302,309 @@ end
 end
 
 --Valor
-_G.AutoVD = True
+_G.AutoHealth3 = True
 
 --Função
-function AutoVD()
-while _G.AutoVD == true do
+function AutoHealth3()
+while _G.AutoHealth3 == true do
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+wait()
+end
+end
+
+--Valor
+_G.AutoHealth4 = True
+
+--Função
+function AutoHealth4()
+while _G.AutoHealth4 == true do
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+
+local args = {
+    [1] = "GiveHealthCuzPro",
+    [2] = 2,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
+
+wait()
+end
+end
+
+--Valor
+_G.AutoHealth5 = True
+
+--Função
+function AutoHealth5()
+while _G.AutoHealth5 == true do
 local args = {
     [1] = "GiveHealthCuzPro",
     [2] = 2,
@@ -460,10 +758,10 @@ local Section = ScriptsPRIVTab:AddSection({
     Name = "Farm-Vida"
 })
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health",
+    Name = "Auto-Health1",
     Default = false,
     Callback = function(Value)
-        _G.AutoHealth = Value
+        _G.AutoHealth1 = Value
         AutoHealth()
     end
 })
@@ -478,6 +776,23 @@ ScriptsPRIVTab:AddToggle({
 
 ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health3",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoVD = Value
+        AutoVD()
+    end
+})
+
+ScriptsPRIVTab:AddToggle({
+    Name = "Auto-Health4",
+    Default = false,
+    Callback = function(Value)
+        _G.AutoVD = Value
+        AutoVD()
+    end
+})
+ScriptsPRIVTab:AddToggle({
+    Name = "Auto-Health5",
     Default = false,
     Callback = function(Value)
         _G.AutoVD = Value
