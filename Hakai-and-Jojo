@@ -111,13 +111,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -240,13 +234,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -369,13 +356,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -499,13 +480,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -630,13 +605,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
