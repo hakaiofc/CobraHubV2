@@ -2551,15 +2551,6 @@ FarmTab:AddToggle({
     end
 })
 
-
-
-
---Main
-local AutoTab= Window:MakeTab({
-    Name = "Main2",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
 local Section = AutoTab:AddSection({
     Name = "AutoFarm2"
 })
@@ -2572,16 +2563,6 @@ AutoTab:AddToggle({
     end
 })
 
-
-
-
-
---Main
-local Vida3Tab= Window:MakeTab({
-    Name = "Main3",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
 local Section = Vida3Tab:AddSection({
     Name = "AutoFarm3"
 })
