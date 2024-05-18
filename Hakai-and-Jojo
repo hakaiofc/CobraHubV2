@@ -129,7 +129,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
 
 local args = {
     [1] = "GiveHealthCuzPro",
@@ -139,7 +139,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
 
 local args = {
     [1] = "GiveHealthCuzPro",
@@ -277,7 +277,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
 
 local args = {
     [1] = "GiveHealthCuzPro",
@@ -425,7 +425,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
+
 
 local args = {
     [1] = "GiveHealthCuzPro",
