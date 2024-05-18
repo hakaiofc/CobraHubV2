@@ -2536,14 +2536,14 @@ local ScriptsPRIVTab = Window:MakeTab({
     PremiumOnly = false
 })
 local Section = ScriptsPRIVTab:AddSection({
-    Name = "Script-Pesos"
+    Name = "Farm-Vida"
 })
 ScriptsPRIVTab:AddToggle({
     Name = "Auto-Health",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth = Value
-        AutoHealth(0.0000000000000000000001)
+        AutoHealth()
     end
 })
 ScriptsPRIVTab:AddToggle({
