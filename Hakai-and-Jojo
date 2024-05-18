@@ -121,13 +121,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -256,13 +250,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -391,13 +379,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -528,13 +509,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -665,13 +640,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack
 
 
 
-local args = {
-    [1] = "GiveHealthCuzPro",
-    [2] = 2,
-    [3] = 1
-}
 
-game:GetService("ReplicatedStorage"):WaitForChild("andreymax"):FireServer(unpack(args))
 
 
 
@@ -734,5 +703,20 @@ ScriptsPRIVTab:AddToggle({
     Callback = function(Value)
         _G.AutoHealth5 = Value
         AutoHealth5()
+    end
+})
+--Infinite-Yield
+local InfiniteYieldTab = Window:MakeTab({
+    Name = "Infinite-Yield",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local Section = InfiniteYieldTab:AddSection({
+    Name = "Infinite-Yield"
+})
+InfiniteYieldTab:AddButton({
+    Name = "InfiniteYield",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hakaiofc/EdgeIYinfiniteyield/main/mastersource'))()
     end
 })
