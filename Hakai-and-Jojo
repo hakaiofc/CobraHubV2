@@ -2546,35 +2546,20 @@ FarmTab:AddToggle({
         AutoHealth(0.0000000000000000000001)
     end
 })
-local FarmTab= Window:MakeTab({
-    Name = "Main",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-local Section = FarmTab:AddSection({
-    Name = "AutoFarm2"
-})
 AutoTab:AddToggle({
     Name = "Auto-Health2",
     Default = false,
     Callback = function(Value)
         _G.AutoVida = Value
-        AutoVida(0.0000000000000000000001)
+        AutoVida()
     end
 })
-local FarmTab= Window:MakeTab({
-    Name = "Main",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-local Section = FarmTab:AddSection({
-    Name = "AutoFarm3"
-})
+
 Vida3Tab:AddToggle({
     Name = "Auto-Health3",
     Default = false,
     Callback = function(Value)
         _G.AutoVD = Value
-        AutoVD(0.0000000000000000000001)
+        AutoVD()
     end
 })
