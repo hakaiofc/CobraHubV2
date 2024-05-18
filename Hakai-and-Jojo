@@ -758,7 +758,7 @@ local Section = ScriptsPRIVTab:AddSection({
     Name = "Farm-Vida"
 })
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health1",
+    Name = "AutoHealth1",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth1 = Value
@@ -766,7 +766,7 @@ ScriptsPRIVTab:AddToggle({
     end
 })
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health2",
+    Name = "AutoHealth2",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth2 = Value
@@ -775,7 +775,7 @@ ScriptsPRIVTab:AddToggle({
 })
 
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health3",
+    Name = "AutoHealth3",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth3 = Value
@@ -784,7 +784,7 @@ ScriptsPRIVTab:AddToggle({
 })
 
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health4",
+    Name = "AutoHealth4",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth4 = Value
@@ -792,7 +792,7 @@ ScriptsPRIVTab:AddToggle({
     end
 })
 ScriptsPRIVTab:AddToggle({
-    Name = "Auto-Health5",
+    Name = "AutoHealth5",
     Default = false,
     Callback = function(Value)
         _G.AutoHealth5 = Value
